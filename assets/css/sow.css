@@ -313,6 +313,26 @@ footer a:hover {
   color: #000;
 }
 
+/* Github logo and repository*/
+
+footer a {
+  margin-left: 0.5rem;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #467bff;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
 /* ACCESSIBILITY */
 .skip-link {
   position: absolute;
