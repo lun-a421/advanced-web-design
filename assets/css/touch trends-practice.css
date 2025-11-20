@@ -48,6 +48,29 @@ body {
   margin-bottom: 1rem;
 }
 
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-15px);
+  }
+}
+
+.box-bounce {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #fa709a, #fee140);
+  border-radius: 50%;
+  animation: bounce 2s infinite;
+}
 .content p {
   margin-bottom: 1rem;
   color: #efefef;
